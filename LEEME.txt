@@ -1,0 +1,10 @@
+PWA Reportes Intermunicipales
+
+1. Publica todos estos archivos juntos en un sitio HTTPS (por ejemplo GitHub Pages).
+2. Abre la dirección en Chrome Android y selecciona Instalar aplicación o Agregar a pantalla principal.
+3. Los oficiales llenan el formulario y comparten por WhatsApp. Requiere conexión para WhatsApp.
+4. El coordinador pega el mensaje recibido, importa el reporte y puede pulsar Descargar Excel (.xlsx).
+5. El concentrado se guarda SOLAMENTE en el navegador del coordinador (localStorage). Sin sincronización, inicio de sesión ni respaldos automáticos. Descargar Excel periódicamente.
+6. Es un prototipo. No usar con reportes clasificados, datos personales o información operativa sensible. Antes de uso institucional implementar autenticación, permisos, respaldo seguro y almacenamiento centralizado.
+
+Importante: abrir index.html desde los archivos del teléfono NO activa la instalación PWA. Debe estar servido por HTTPS.

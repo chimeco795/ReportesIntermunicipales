@@ -18,7 +18,7 @@ Los reportes se guardan únicamente en `localStorage` del navegador del coordina
 
 GitHub Pages utiliza el workflow `.github/workflows/pages.yml`, activado por cada push a `main`. Publica únicamente HTML, manifest, Service Worker e íconos. En Settings → Pages, la fuente debe ser **GitHub Actions**.
 
-`start_url`, `scope`, `id`, íconos y registro del Service Worker usan rutas relativas para funcionar bajo `/ReportesIntermunicipales/`. El formulario y el exportador no cargan bibliotecas ni servicios remotos.
+`start_url`, `scope`, íconos y registro del Service Worker usan rutas relativas para funcionar bajo `/ReportesIntermunicipales/`. El `id` del manifest identifica explícitamente `/ReportesIntermunicipales/` para no confundirse con otras aplicaciones del dominio. El formulario y el exportador no cargan bibliotecas ni servicios remotos.
 
 Tras modificar archivos de la aplicación, incrementar la versión `CACHE` de `sw.js` para renovar los recursos precargados. El Service Worker solo elimina cachés con el prefijo propio y usa la página guardada cuando no hay red. La primera visita sí requiere conexión.
 

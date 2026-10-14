@@ -1,5 +1,5 @@
 const PREFIX = 'reportes-intermunicipales-';
-const CACHE = PREFIX + 'v2';
+const CACHE = PREFIX + 'v3';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 const HOME = new URL('./index.html', self.registration.scope).href;
 
